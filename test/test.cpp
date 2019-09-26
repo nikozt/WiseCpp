@@ -6,6 +6,8 @@
 
 int main()
 {
+	// вывожу на экран  "Hello World!" 
+	// в консоль
     std::cout << "Hello World!\n";
 	//int result = TestMemory();
 	int result = TestMemory4();
