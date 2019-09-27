@@ -4,11 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{BB85D5C6-E551-42BF-93B9-40C8280AF291}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D11B897F-758D-4522-89DE-2A9BC778E51D} = {D11B897F-758D-4522-89DE-2A9BC778E51D}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4B059CD-D41F-4686-BDA8-AB6DA6D6FAE3}"
 	ProjectSection(SolutionItems) = preProject
 		Workflow.GIT.txt = Workflow.GIT.txt
+		WorkflowProjects.txt = WorkflowProjects.txt
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ForgeLib", "ForgeLib\ForgeLib.vcxproj", "{D11B897F-758D-4522-89DE-2A9BC778E51D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +32,14 @@ Global
 		{BB85D5C6-E551-42BF-93B9-40C8280AF291}.Release|x64.Build.0 = Release|x64
 		{BB85D5C6-E551-42BF-93B9-40C8280AF291}.Release|x86.ActiveCfg = Release|Win32
 		{BB85D5C6-E551-42BF-93B9-40C8280AF291}.Release|x86.Build.0 = Release|Win32
+		{D11B897F-758D-4522-89DE-2A9BC778E51D}.Debug|x64.ActiveCfg = Debug|x64
+		{D11B897F-758D-4522-89DE-2A9BC778E51D}.Debug|x64.Build.0 = Debug|x64
+		{D11B897F-758D-4522-89DE-2A9BC778E51D}.Debug|x86.ActiveCfg = Debug|Win32
+		{D11B897F-758D-4522-89DE-2A9BC778E51D}.Debug|x86.Build.0 = Debug|Win32
+		{D11B897F-758D-4522-89DE-2A9BC778E51D}.Release|x64.ActiveCfg = Release|x64
+		{D11B897F-758D-4522-89DE-2A9BC778E51D}.Release|x64.Build.0 = Release|x64
+		{D11B897F-758D-4522-89DE-2A9BC778E51D}.Release|x86.ActiveCfg = Release|Win32
+		{D11B897F-758D-4522-89DE-2A9BC778E51D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

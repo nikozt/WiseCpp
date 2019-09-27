@@ -5,6 +5,7 @@
     <ClInclude Include="TestMemory2.h" />
     <ClInclude Include="TestMemory3.h" />
     <ClInclude Include="TestMemory4.h" />
+    <ClInclude Include="TestForgePathRelative.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp" />
