@@ -14,7 +14,7 @@ int main()
 	// в консоль
     std::cout << "Hello World!\n";
 	//result = TestMemory();
-	//result = TestMemory4();
-	result = TestForgePathRelative();
+	result = TestMemory4();
+	//result = TestForgePathRelative();
 }
 

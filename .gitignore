@@ -16,3 +16,5 @@
 *.opendb
 *.tlog
 *.lastbuildstate
+*.obj
+*.pch
