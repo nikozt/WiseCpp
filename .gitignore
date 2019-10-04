@@ -1,9 +1,11 @@
-/..vs/
+
+ipch/
+Debug/
+x64/
+Release/
+Out/
+
 *.suo
-./ipch/
-./Debug/
-./x64/
-./Release/
 *.user
 *.pdb
 *.tlog
