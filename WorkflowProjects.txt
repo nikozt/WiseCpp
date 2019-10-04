@@ -16,3 +16,5 @@ int common_path_relative(const char* pathRoot, const char* path, char* buffer).
 
 2) Создание файлов исходного кода. Создал файлы файлы для функций макросов трассировки ( Forge.Trace.h и Forge.Trace.cpp) внутри проекта ForgeLib. 
 Только сейчас дошло, что .h это header file - подключаемый файл.
+
+Подключаем файл TestTrace в библиотеку 
