@@ -4,9 +4,12 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Forge.Path.h" />
+    <ClInclude Include="Forge.Trace.h" />
+    <ClInclude Include="TestTrace.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="Forge.Path.cpp" />
+    <ClCompile Include="Forge.Trace.cpp" />
   </ItemGroup>
 </Project>

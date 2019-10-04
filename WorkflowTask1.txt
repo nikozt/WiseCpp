@@ -1,0 +1,16 @@
+Создаем заголовочный файл .h
+__int64 GetNumber(const char* pBegin, const int pos)
+{
+	const __int64 *p = (const __int64*) (pBegin + pos);
+	return *p;
+}
+
+далее, в основном коде проекта прописываем, так как нам нужно хранить гдето данные которые вернет getnumber.d
+
+//char* memory = (char*)malloc(20);
+	memset(memory, 0xAA, 20);
+	result = GetNumber(memory, 10);
+
+	char* memory = (char*)malloc(20)
+	memset(memory, OxFF, 10);
+	result = GetNumber(memory, 10)
