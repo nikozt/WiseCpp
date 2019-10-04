@@ -4,6 +4,7 @@ Debug/
 x64/
 Release/
 Out/
+.vs/
 
 *.suo
 *.user
